@@ -2,6 +2,7 @@ body{
     background-image: url(../img/fundo.png);
     background-attachment: fixed;
     color: #fff;
+    font-family: 'Permanent Marker',cursive;
 }
 h1{
     color: #fff;
