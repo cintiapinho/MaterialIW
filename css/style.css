@@ -64,6 +64,11 @@ nav{
     margin: auto;    
 }
 
+.listasmeio li{
+    line-height: 1.5;
+    font-size:1.3rem ;
+}
+
 footer{
     background-color:black;
     width: 100%;
