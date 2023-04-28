@@ -1,5 +1,5 @@
 body{
-    background-color:black;
+    background-image: url(../img/fundo.png);
     color: #fff;
 }
 h1{
@@ -11,18 +11,32 @@ h1{
 
 p{
     padding-top: 1%;
+    padding-bottom: 1%;
+    line-height: 1.5;
+    font-size: 1.3em;
   
+}
+
+h1{
+
+    font-size: 2rem;
+
+}
+
+h2{
+    font-size: 1.5rem;
 }
 
 header{
     width: 100%;
-    background-color:#363636;
+    background-color:black;
     padding: 1.5%;
 }
 
 section{
     padding-left: 2% ;
     padding-right: 2% ;
+    background-color: black;
 }
 
 .logo{
@@ -43,12 +57,15 @@ nav{
 }
 
 .container{
-    background-color: #363636;
+    
     width: 80%;
     margin: auto;    
 }
 
 footer{
-    background-color:#363636;
+    background-color:black;
     width: 100%;
+    text-align: center;
 }
+
+
