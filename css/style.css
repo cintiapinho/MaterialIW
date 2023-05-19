@@ -20,6 +20,7 @@ p{
     padding-bottom: 1%;
     line-height: 1.5;
     font-size: 1.3em;
+    text-align: justify;
   
 }
 
@@ -77,6 +78,16 @@ footer{
     background-color:black;
     width: 100%;
     text-align: center;
+}
+
+.ladodir{
+    float: right;
+}
+
+.imgmeio{
+    width: 40%;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 
