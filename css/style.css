@@ -93,12 +93,30 @@ footer{
 .linha{
     display: flex;
     flex-flow: row wrap;
-    text-align: center;
+    text-align: center;    
 }
 
 .col-6 {
     width: 50%;
 }
+
+a:hover {
+    text-decoration: none;
+    color: gray;
+    }
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 600px) {
+    .linha {
+      flex-direction: column;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+  }
+
+
 
 
 
