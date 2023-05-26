@@ -90,6 +90,20 @@ footer{
     margin-bottom: 2%;
 }
 
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+
+
+
+
 
 
 
