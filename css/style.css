@@ -63,8 +63,7 @@ nav{
     height: 100%;
 }
 
-.container{
-    
+.container{    
     width: 80%;
     margin: auto;    
 }
@@ -90,14 +89,20 @@ footer{
     margin-bottom: 2%;
 }
 
-.linha{
+.linha, .row-sections{
     display: flex;
     flex-flow: row wrap;
     text-align: center;    
 }
 
+
 .col-6 {
     width: 50%;
+}
+
+.col-textos{
+    width: 40%;
+
 }
 
 .img-card{
@@ -127,14 +132,26 @@ a:hover {
     color: #fff;
     }
 
+#epi, #per{
+ text-align: center;
+ padding-left: 3%;
+ padding-right: 3%;
+ margin-top: 2%;
+}
+
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 600px) {
-    .linha {
+    .linha,.row-sections  {
       flex-direction: column;
     }
 
     .col-6 {
-        width: 100%;
+        width: 80%;
+    }
+
+    .col-textos{
+        width: 80%;
+    
     }
   }
 
