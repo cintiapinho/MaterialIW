@@ -71,7 +71,14 @@ nav{
 .listasmeio li{
     line-height: 1.5;
     font-size:1.3rem ;
+    text-align: left;
 }
+
+.listasmeio{
+    list-style-image: url('../img/sabre.png');
+}
+
+
 
 footer{
     background-color:black;
@@ -138,6 +145,31 @@ a:hover {
  padding-right: 3%;
  margin-top: 2%;
 }
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: 100%;  
+    color: black;
+   
+   
+  }
+  
+  td {
+    background-color:#FFFF00;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+
+  th{
+    color: #fff;
+    padding: 8px;
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+ 
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 600px) {
