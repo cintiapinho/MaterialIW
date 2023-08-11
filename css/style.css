@@ -52,6 +52,14 @@ section{
     font-size: 1.5em;
 }
 
+.logotopo{
+    width: 25%;
+}
+
+.social{
+    width: 5%;
+}
+
 nav{
     text-align: center;
     color: #fff;
