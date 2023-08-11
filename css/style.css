@@ -86,6 +86,10 @@ nav{
     list-style-image: url('../img/sabre.png');
 }
 
+.centro{
+    text-align: center;
+}
+
 
 
 footer{
